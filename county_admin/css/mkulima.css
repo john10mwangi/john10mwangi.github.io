@@ -1,0 +1,174 @@
+body
+{
+	font-family: Tahoma;
+	width:100%;
+	font-size:20px;
+	padding:10px;
+}
+
+.column1
+{
+	background-color: rgb(2, 117, 216);
+	color:  #8B0000;
+	position: fixed;
+	height: 100%;
+	width: 27%;
+	float:right;
+}
+
+.admin
+{
+	margin-top: 2px;
+	text-align:center;
+	color: red;
+}
+
+
+
+.list2:hover a,
+.list2:active a,
+.list2:focus a,
+.link.active
+{
+	color: #f4ef5e;
+}
+
+.list2
+{
+	cursor: pointer;
+	font-size: 15px;
+	list-style: none;
+	padding: 5px 5px;
+}
+
+.link
+{
+	display: block;
+	justify-content: center;
+	cursor: pointer;
+	color: black;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.column2
+{
+	float: right;
+	padding:0px;
+	width: 70%;
+	color: black;
+}
+
+.sec
+{
+	margin-bottom: 20px;
+}
+
+.title
+{
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 45px;
+	color:#008000;
+}
+#navigationBar {
+position: relative;
+margin: 0px;
+padding: 0;
+height: 100px;
+width: auto;
+}
+#navigationBar ul {
+margin: 0px;
+padding: inherit;
+position: absolute;
+height: 100%;
+width: auto;
+list-style-type: none;
+background-color: white solid;
+overflow: visible;
+}
+#navigationBar ul > li {
+padding: 0 20px;
+display: block;
+float: left;
+height: auto;
+/* menu header's items width */
+width: auto;
+}
+#navigationBar li > a {
+display: block;
+padding: 0 0 0 10px;
+height: 100%;
+width: auto;
+border-right: 0px black solid;
+line-height: 30px;
+font-family: sans-serif;
+font-size: 17px;
+text-decoration: none;
+background-color: #00FFFF;
+color:  #8B0000;
+}
+#navigationBar ul ul {
+margin-top: 2px;
+display: none;
+position: static;
+height: auto;
+width: 160px;
+border:  #006599 solid;
+background-color: cyan;
+}
+#navigationBar ul ul li {
+position: relative;
+float: none;
+display: block;
+height: 28px;
+width: auto;
+border: none;
+}
+#navigationBar ul ul li > a {
+height: 100%;
+width: auto;
+padding: 0 0 0 4%;
+line-height: 28px;
+background-color: transparent;
+border: none;
+color: #000000;
+font-size: 12px;
+font-style: normal;
+}
+#navigationBar li:hover > a {
+color: #220000;
+background-color: #eeeabe;
+}
+#navigationBar li:hover > ul {
+display: block;
+}
+
+.container_in {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container_in {
+    width: 350px;
+  }
+}
+@media (min-width: 992px) {
+  .container_in {
+    width: 350px;
+  }
+}
+@media (min-width: 1200px) {
+  .container_in {
+    width: 350px;
+  }
+}
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
