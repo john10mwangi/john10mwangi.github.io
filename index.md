@@ -47,7 +47,6 @@
 	<li><a class="link btn-toolbar" href="midmen/index.php">LOGIN</a></li>
 	<li><a class="link btn-toolbar" href="midmen/reg.php">REGISTER</a></li>
 	</ul>
-	</li>
 	<li><a class="link badge" href="county_admin/index.php"><img class="img-circle" height="100" width="100" src="pics/logo1.jpg"><img>COUNTY</a></li>
 	<li><a class="link badge" href="national_admin/index.php"><img class="img-circle" height="100" width="100" src="pics/bs.png"><img>NATIONAL</a></li>
 	</ul>
