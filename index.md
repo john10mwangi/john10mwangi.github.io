@@ -37,12 +37,12 @@
 <div class="container">
 	<nav id="navigationBar">
 	<ul>
-	<li><a class="btn link badge" href="login.php"><img class="img-circle" height="100" width="100" src="pics/farmer1.jpg"><img>FARMERS</a>
+	<li><a class="btn link badge" href="login.php"><img class="img-circle" height="100" width="100" src="pics/farmer1.jpg"><img>FARMERS</a></li>
 	<ul>
 	<li><a class="link" href="login.php">LOGIN</a></li>
 	<li><a class="link btn-toolbar" href="reg.php">REGISTER</a></li>
 	</ul>
-	<li><a class="link badge button" href="midmen/index.php"><img class="img-circle" height="100" width="100" src="pics/handshake.png"><img>TRADERS</a>
+	<li><a class="link badge button" href="midmen/index.php"><img class="img-circle" height="100" width="100" src="pics/handshake.png"><img>TRADERS</a></li>
 	<ul>
 	<li><a class="link btn-toolbar" href="midmen/index.php">LOGIN</a></li>
 	<li><a class="link btn-toolbar" href="midmen/reg.php">REGISTER</a></li>
@@ -52,9 +52,9 @@
 	<li><a class="link badge" href="national_admin/index.php"><img class="img-circle" height="100" width="100" src="pics/bs.png"><img>NATIONAL</a></li>
 	</ul>
 	</nav>
-
 </div>
-			</div> <!-- container -->
+</div>
+</div> <!-- container -->
 
 </body>
 </html>
